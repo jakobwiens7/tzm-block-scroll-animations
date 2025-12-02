@@ -1,0 +1,277 @@
+// Inspector Panel
+.block-editor-block-inspector .block-editor-panel-scrollage {
+    .components-panel__row:not(:first-of-type) {
+        margin-top: 12px;
+    }
+
+    .button__full-width {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .unit-controls__offsets {
+        .components-unit-control {
+            margin-bottom: 0;
+        }
+    }
+
+    .toggle-control__preview {
+        margin-top: 8px;
+    }
+}
+
+// Guide Modal
+.tzm-block-scrollage-guide {
+    --guide-max-width: 600px;
+
+    border: none;
+    max-height: 600px;
+    min-width: 480px;
+
+    img {
+        max-width: var(--guide-max-width);
+    }
+
+    .components-guide__page-control {
+        margin-top: 10px;
+    }
+
+    .quick-guide__content {
+        max-width: var(--guide-max-width);
+        padding: 0 32px;
+
+        p svg {
+            vertical-align: middle;
+            padding-inline: 2px;
+        }
+    }
+}
+
+// Range Picker Modal
+.range-picker-modal {
+    .range-picker__tree-grid {
+        width: 100%;
+    }
+
+    .range-picker__tree-grid-notice {
+        margin-bottom: 12px;
+    }
+
+    .range-picker__tree-grid-row {
+        &[aria-level="1"] > * {
+            padding-left: 0;
+        }
+        &[aria-level="2"] > * {
+            padding-left: 24px;
+        }
+        &[aria-level="3"] > * {
+            padding-left: 48px;
+        }
+        &[aria-level="4"] > * {
+            padding-left: 72px;
+        }
+        &[aria-level="5"] > * {
+            padding-left: 96px;
+        }
+        &[aria-level="5"] > * {
+            padding-left: 120px;
+        }
+        &[aria-level="6"] > * {
+            padding-left: 144px;
+        }
+        &[aria-level="7"] > * {
+            padding-left: 168px;
+        }
+        &[aria-level="8"] > * {
+            padding-left: 192px;
+        }
+    }
+
+    .range-picker__tree-grid-cell__item-button {
+        width: 100%;
+        height: 32px;
+        padding-right: 12px;
+        padding-left: 0;
+
+        &.is-pressed:not(:disabled, [aria-disabled="true"]) {
+            background-color: var(--wp-admin-theme-color);
+        }
+    }
+
+    .range-picker__tree-grid-cell__item-expander {
+        min-width: 24px;
+    }
+
+    .range-picker__tree-grid-cell__item-icon {
+        min-width: 24px;
+        margin-right: 4px;
+    }
+
+    .range-picker__tree-grid-cell__item-anchor {
+        background: #0000001a;
+        border-radius: 1px;
+        box-sizing: border-box;
+        padding: 2px 6px;
+    }
+}
+
+// Animations Editor Modal
+.animation-editor {
+    height: 70%;
+    min-height: 380px;
+
+    .components-modal__content {
+        padding: 0 32px;
+    }
+
+    .components-modal__header + div {
+        height: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .animation-editor__tab-panel {
+        .components-tab-panel__tab-content {
+            width: fit-content;
+            border: 1px solid lightgray;
+            border-radius: 2px;
+        }
+
+        .components-tab-panel__tabs-item {
+            max-height: 40px;
+            padding-right: 25px;
+
+            &:after {
+                opacity: 0;
+            }
+
+            &.is-active {
+                background-color: #eee;
+            }
+            &.has-animation-data:before {
+                content: "✓";
+                text-align: end;
+            }
+        }
+    }
+
+    .animation-editor__tab-panel__content {
+        display: inline-flex;
+        flex-direction: column;
+        height: 100%;
+
+        .animations-controls {
+            padding: 24px;
+            flex-grow: 1;
+        }
+
+        .animation-editor__responsive-notice {
+            margin-bottom: 12px;
+            background-color: #e9f0fb;
+        }
+
+        .animation-controls__row {
+            min-height: auto;
+            margin-bottom: 12px;
+
+            > svg {
+                min-width: 40px;
+                opacity: 0.5;
+            }
+            &:focus-within > svg {
+                opacity: 1;
+            }
+            > .components-base-control {
+                flex-grow: 1;
+            }
+            .components-range-control .components-range-control__wrapper {
+                flex-grow: 10;
+            }
+
+            .button__reset {
+                margin-bottom: 8px;
+                min-width: fit-content;
+            }
+        }
+    }
+
+    // Non-mobile layout
+    @media screen and (min-width: 782px) {
+        .animation-editor__tab-panel {
+            flex-grow: 1;
+
+            .components-tab-panel__tabs {
+                flex-direction: column;
+                flex-wrap: wrap;
+                width: 140px;
+                position: absolute;
+                top: 76px;
+                left: 24px;
+            }
+
+            .components-tab-panel__tab-content {
+                margin-left: 160px;
+                height: 100%;
+            }
+        }
+    }
+
+    // Mobile layout
+    @media screen and (max-width: 781px) {
+        height: 80%;
+        align-self: center;
+    }
+
+    .animation-editor__footer-buttons {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+}
+
+// Animations Editor toolbar
+#animations-editor-toolbar {
+    width: max-content;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+    background-color: #eeeeee;
+
+    .components-toolbar-group {
+        border-right: 1px solid lightgray;
+    }
+
+    .components-toolbar-button.is-pressed[aria-disabled="true"] {
+        background-color: unset;
+
+        &:before {
+            background-color: #949494;
+        }
+    }
+}
+
+// Easing dropdown control
+.easing-dropdown .components-popover__content {
+    width: 240px;
+}
+
+// Easing selection control
+.combobox-control__easing {
+    .components-form-token-field__suggestions-list {
+        min-height: 160px;
+    }
+    .components-form-token-field__suggestion {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        > svg {
+            height: 24px;
+            width: auto;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 4px;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+    }
+}
