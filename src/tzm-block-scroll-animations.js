@@ -197,7 +197,7 @@ const withBlockScrollageControls = createHigherOrderComponent( ( BlockEdit ) => 
 									className="toggle-control__preview"
 									checked={ scrollAnimations?.previewEnabled }
 									label={ __('Experimental preview',	'tzm-block-scroll-animations') }
-									help={ __( 'Preview is only available in block themes. Always review results on the Frontend.', 'tzm-block-scroll-animations') 
+									help={ __( 'Preview might be disabled or inaccurate. Always review your results on the frontend.', 'tzm-block-scroll-animations') 
 									}
 									onChange={ ( newValue ) => updateAttribute({
 										...scrollAnimations,
@@ -321,11 +321,6 @@ const addBlockScrollagePropsEditor = createHigherOrderComponent( ( BlockListBloc
 		};
 		
 		if ( scrollAnimations?.enabled && hasAnyAnimations( scrollAnimations?.animations ) ) {
-
-			// Add 'scrollage' class if preview is enabled
-			/*if (scrollAnimations?.previewEnabled) {
-				className += ' scrollage';
-			}*/
 
 			// Add data attributes for Scrollage
 			Object.assign( wrapperProps, {

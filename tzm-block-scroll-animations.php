@@ -86,21 +86,6 @@ if (!class_exists('TZM_Block_Scroll_Animations')) {
         {
             $assets = include(plugin_dir_path(__FILE__) . 'build/view-tzm-block-scroll-animations.asset.php');
 
-            /*wp_enqueue_style(
-                'scrollagejs',
-                plugins_url('/build/scrollage.min.css', __FILE__),
-                [],
-                $assets['version']
-            );
-
-            wp_enqueue_script(
-                'scrollagejs',
-                plugins_url('/build/scrollage.min.js', __FILE__),
-                is_admin() ? 'tzm-block-scroll-animations-editor' : [],
-                $assets['version'],
-                true
-            );*/
-
             wp_enqueue_style(
                 'tzm-block-scroll-animations',
                 plugins_url('/build/style-tzm-block-scroll-animations.css', __FILE__),

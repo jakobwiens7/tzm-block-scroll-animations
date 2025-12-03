@@ -1,7 +1,7 @@
 === TZM Block Scroll Animations ===
 Contributors:       jakobwiens
 Tags:               block controls, scroll, motion, effects, animation
-Tested up to:       6.8
+Tested up to:       6.9
 Stable tag:         1.0.0
 License:			GPLv2 or later
 License URI: 		https://www.gnu.org/licenses/gpl-2.0.html
@@ -57,7 +57,7 @@ Yes. The Animation Editor supports device-specific configuration. Activate the r
 Block Scroll Animations works with any theme that properly supports the block editor and follows standard frontend markup.
 
 = I want to use Block Scroll Animations on a non-WordPress site. Is this possible?
-Not directly. The plugin cannot be used outside the WordPress environment. However, you may want to explore the underlying library, **ScrollageJS**, which powers this plugin: https://github.com/jakobwiens7/scrollage-js.
+While the plugin cannot be used outside the WordPress environment, you may want to explore the underlying **ScrollageJS** library, which powers this plugin: https://github.com/jakobwiens7/scrollage-js.
 
 
 == Screenshots ==

@@ -1,7 +1,7 @@
 {
 	"name": "tzm-block-scroll-animations",
 	"version": "1.0.0",
-	"description": "Bring your blocks to life with scroll-driven animations.",
+	"description": "Bring your Gutenberg blocks to life with scroll-driven animations.",
 	"author": "TezmoMedia - Jakob Wiens",
 	"license": "GPL-2.0-or-later",
 	"main": "build/tzm-block-scroll-animations.js",

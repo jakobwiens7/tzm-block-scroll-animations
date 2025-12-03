@@ -46,8 +46,8 @@ const GuideModal = ( { onFinish } ) => {
                             </p>
                             <p>
                                 { textWithElements( 
-                                    __("For further details refer to the official documentation at:<br/><a>github.com/jakobwiens7/block-scroll-animations</a>", 'tzm-block-scroll-animations'), 
-                                    { br: <br/>, a: <a href="https://github.com/jakobwiens7/block-scroll-animations" target="_blank"/> }
+                                    __("For further details refer to the official documentation at:<br/><a>github.com/jakobwiens7/tzm-block-scroll-animations</a>", 'tzm-block-scroll-animations'), 
+                                    { br: <br/>, a: <a href="https://github.com/jakobwiens7/tzm-block-scroll-animations" target="_blank"/> }
                                 ) }
                             </p>
                         </div>
@@ -72,7 +72,7 @@ const GuideModal = ( { onFinish } ) => {
                             </p>
                             <p>
                                 { textWithElements( 
-                                    __("By default, animations run only on the Frontend. However, in some cases you may be able to enable <strong>Experimental preview</strong> in the inspector panel to view animations directly in the Editor.", 'tzm-block-scroll-animations'), 
+                                    __("By default, animations run only on the Frontend. However, you might be able to enable <strong>Experimental preview</strong> in the inspector panel to view animations directly in the Editor.", 'tzm-block-scroll-animations'), 
                                     { strong: <strong/> }
                                 ) }
                             </p>
