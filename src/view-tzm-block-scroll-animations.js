@@ -5,5 +5,9 @@ import domReady from '@wordpress/dom-ready';
 import Scrollage from './modules/scrollage.esm.js';
 
 domReady( function () {
-	window.scrollageInstance = new Scrollage();
+    const settings = window.tzmScrollageSettings || {};
+    const selector = settings.selector || '.scrollage';
+    const options = settings.options || {};
+    
+    window.tzmScrollageInstance = new Scrollage(selector, options);
 } );
