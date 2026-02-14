@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-11-21T11:24:01+01:00\n"
+"POT-Creation-Date: 2025-12-03T10:49:09+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: tzm-block-scroll-animations\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. Description of the plugin
 #: tzm-block-scroll-animations.php
-msgid "Bring your blocks to life with scroll-driven animations."
+msgid "Bring your blocks to life with scroll-driven animations — no coding required!"
 msgstr ""
 
 #. Author of the plugin
@@ -61,13 +61,11 @@ msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/guide-modal.js:49
-msgid "For further details refer to the official documentation at:<br/><a>github.com/jakobwiens7/block-scroll-animations</a>"
+msgid "For further details refer to the official documentation at:<br/><a>github.com/jakobwiens7/tzm-block-scroll-animations</a>"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animations-editor-modal.js:341
-#: src/components/animations-panel.js:65
-#: src/components/animations-panel.js:68
 #: src/components/guide-modal.js:59
 #: src/tzm-block-scroll-animations.js:191
 msgid "Animation Editor"
@@ -85,7 +83,7 @@ msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/guide-modal.js:75
-msgid "By default animations are active on the Frontend only. Enable <strong>Experimental preview</strong> in the inspector panel to test them directly in the Editor. However, since it is experimental this may not be accurate. Always review your final results on the Frontend."
+msgid "By default, animations run only on the Frontend. However, you might be able to enable <strong>Experimental preview</strong> in the inspector panel to view animations directly in the Editor."
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
@@ -171,127 +169,106 @@ msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:8
-#: src/_easing.js:9
 msgid "In Sine"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:13
-#: src/_easing.js:14
 msgid "Out Sine"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:18
-#: src/_easing.js:19
 msgid "In Out Sine"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:23
-#: src/_easing.js:24
 msgid "In Cubic"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:28
-#: src/_easing.js:29
 msgid "Out Cubic"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:33
-#: src/_easing.js:34
 msgid "In Out Cubic"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:38
-#: src/_easing.js:39
 msgid "In Quint"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:43
-#: src/_easing.js:44
 msgid "Out Quint"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:48
-#: src/_easing.js:49
 msgid "In Out Quint"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:53
-#: src/_easing.js:54
 msgid "In Circle"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:58
-#: src/_easing.js:59
 msgid "Out Circle"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:63
-#: src/_easing.js:64
 msgid "In Out Circle"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:68
-#: src/_easing.js:69
 msgid "In Back"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:73
-#: src/_easing.js:74
 msgid "Out Back"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:78
-#: src/_easing.js:79
 msgid "In Out Back"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:83
-#: src/_easing.js:84
 msgid "In Bounce"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:89
-#: src/_easing.js:90
 msgid "Out Bounce"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:95
-#: src/_easing.js:96
 msgid "In Out Bounce"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:101
-#: src/_easing.js:102
 msgid "In Elastic"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:107
-#: src/_easing.js:108
 msgid "Out Elastic"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/shared/easings.js:113
-#: src/_easing.js:114
 msgid "In Out Elastic"
 msgstr ""
 
@@ -448,7 +425,6 @@ msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animation-fade-controls.js:25
-#: src/components/animation-panel.js:101
 #: src/components/animations-editor-modal.js:370
 msgid "Fade"
 msgstr ""
@@ -469,7 +445,6 @@ msgid "End Opacity (%)"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-panel.js:134
 #: src/components/animation-saturate-controls.js:25
 #: src/components/animations-editor-modal.js:376
 msgid "Saturate"
@@ -492,7 +467,6 @@ msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animation-blur-controls.js:24
-#: src/components/animation-panel.js:165
 #: src/components/animations-editor-modal.js:382
 msgid "Blur"
 msgstr ""
@@ -574,19 +548,16 @@ msgid "You are currently editing the responsive animations for <strong>%s</stron
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-panel.js:60
 #: src/components/animations-editor-modal.js:352
 msgid "Move"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-panel.js:77
 #: src/components/animations-editor-modal.js:358
 msgid "Rotate"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-panel.js:94
 #: src/components/animations-editor-modal.js:364
 msgid "Scale"
 msgstr ""
@@ -598,7 +569,6 @@ msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animations-editor-modal.js:403
-#: src/components/animations-panel.js:110
 msgid "Reset all"
 msgstr ""
 
@@ -629,13 +599,13 @@ msgid "Disabled"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:200
+#: src/tzm-block-scroll-animations.js:199
 msgid "Experimental preview"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:201
-msgid "Preview might be inaccurate, always double-check on the Frontend."
+#: src/tzm-block-scroll-animations.js:200
+msgid "Preview might be disabled or inaccurate. Always review your results on the frontend."
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
@@ -676,86 +646,4 @@ msgstr ""
 #: build/tzm-block-scroll-animations.js:1
 #: src/tzm-block-scroll-animations.js:274
 msgid "Quick Guide"
-msgstr ""
-
-#: src/components/animation-panel.js:56
-msgid "Animations"
-msgstr ""
-
-#: src/components/animation-panel.js:64
-msgid "Move:"
-msgstr ""
-
-#: src/components/animation-panel.js:81
-msgid "Rotate:"
-msgstr ""
-
-#: src/components/animation-panel.js:98
-msgid "Scale:"
-msgstr ""
-
-#: src/components/animation-panel.js:105
-msgid "Fade:"
-msgstr ""
-
-#: src/components/animation-panel.js:110
-#: src/components/animation-panel.js:143
-msgid "Start"
-msgstr ""
-
-#: src/components/animation-panel.js:122
-#: src/components/animation-panel.js:154
-msgid "End"
-msgstr ""
-
-#: src/components/animation-panel.js:138
-msgid "Saturate:"
-msgstr ""
-
-#: src/components/animation-panel.js:169
-msgid "Blur:"
-msgstr ""
-
-#: src/components/animations-panel.js:109
-msgid "Save & close"
-msgstr ""
-
-#: src/components/scope-picker-modal.js:64
-msgid "Timeline Scope"
-msgstr ""
-
-#: src/components/scope-picker-modal.js:70
-msgid "Choose a block to define the scroll range that will control your animations."
-msgstr ""
-
-#: src/components/scope-picker-modal.js:83
-msgid "<strong>No blocks with anchor attributes found.</strong><br>Add a unique anchor to blocks in their `Advanced` settings to make them selectable."
-msgstr ""
-
-#: src/_easing.js:125
-msgid "Sine:"
-msgstr ""
-
-#: src/_easing.js:131
-msgid "Cubic:"
-msgstr ""
-
-#: src/_easing.js:137
-msgid "Quintic:"
-msgstr ""
-
-#: src/_easing.js:143
-msgid "Circular:"
-msgstr ""
-
-#: src/_easing.js:149
-msgid "Back:"
-msgstr ""
-
-#: src/_easing.js:155
-msgid "Bounce:"
-msgstr ""
-
-#: src/_easing.js:161
-msgid "Elastic:"
 msgstr ""
