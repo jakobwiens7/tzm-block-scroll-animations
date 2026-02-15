@@ -6,52 +6,177 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tzm-block-scroll-"
 "animations\n"
 "Last-Translator: admin\n"
-"Language-Team: German\n"
+"Language-Team: Deutsch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2025-12-03T10:49:09+01:00\n"
-"PO-Revision-Date: 2025-12-03 13:05+0000\n"
+"PO-Revision-Date: 2026-02-14 18:02+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: tzm-block-scroll-animations\n"
 "Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Loco-Version: 2.8.0; wp-6.9; php-8.1.33"
 
-#. Plugin Name of the plugin
-#: tzm-block-scroll-animations.php
-msgid "TZM Block Scroll Animations"
-msgstr ""
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:157
+msgid "- <strong>%</strong> for values relative to the Timeline range height"
+msgstr "- <strong>%</strong> für Werte relativ zur Höhe des Timeline-Bereichs"
 
-#. Description of the plugin
-#: tzm-block-scroll-animations.php
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:151
+msgid "- <strong>px</strong> for absolute values in pixel"
+msgstr "- <strong>px</strong> für absolute Werte in Pixel"
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:163
+msgid "- <strong>vh</strong> for values relative to the Viewport height"
+msgstr "- <strong>vh</strong> für Werte relativ zur Höhe des Viewports"
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:95
 msgid ""
-"Bring your blocks to life with scroll-driven animations — no coding required!"
+"Adjust <strong>responsive animations</strong> for specific screen sizes by "
+"toggling the responsive device icons (Desktop, Laptop, Tablet, Phone) and "
+"setting unique values per device."
 msgstr ""
-"Erwecke deine Blöcke mit scrollbasierten Animationen zum Leben — ganz ohne "
-"Programmierkenntnisse!"
+"Passe <strong>responsive Animationen</strong> für bestimmte Bildschirmgrößen "
+"an, indem du die Geräte-Symbole (Desktop, Laptop, Tablet, Phone) aktivierst "
+"und pro Gerät eigene Werte festlegst."
 
-#. Author of the plugin
-#: tzm-block-scroll-animations.php
-msgid "TezmoMedia - Jakob Wiens"
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-move-controls.js:117
+msgid ""
+"Adjust your block's horizontal start and end positions. Use negative values "
+"to move to the left and positive values to move to the right (Note: "
+"Percentage values are relative to the Timeline range)."
 msgstr ""
+"Stelle die horizontalen Start- und Endpositionen deines Blocks ein. Verwende "
+"negative Werte, um ihn nach links zu bewegen, und positive Werte, um ihn "
+"nach rechts zu bewegen (Hinweis: Prozentwerte sind relativ zum Timeline-"
+"Bereich)."
 
-#. Author URI of the plugin
-#: tzm-block-scroll-animations.php
-msgid "https://www.tezmo.media"
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-blur-controls.js:41
+msgid ""
+"Adjust your block's start and end blur. Increase the value above 0 to add a "
+"progressive blur effect. Note: Excessive use of blur can significantly "
+"impact performance, especially on slower devices."
 msgstr ""
+"Stelle Start- und Endwerte für den Unschärfeeffekt deines Blocks ein. Erhöhe "
+"den Wert über 0, um einen zunehmenden Unschärfeeffekt zu erzeugen. Hinweis: "
+"Intensiver Einsatz von Unschärfe kann die Leistung erheblich beeinträchtigen,"
+" insbesondere auf langsameren Geräten."
 
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:32
-msgid "Block Scroll Animations Guide"
-msgstr "Block Scroll Animations-Anleitung"
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-saturate-controls.js:37
+msgid ""
+"Adjust your block's start and end color saturation. Set values below 100% to "
+"reduce saturation or values above 100% to intensify the colors."
+msgstr ""
+"Stelle Start- und Endwerte für die Farbsättigung deines Blocks ein. Setze "
+"Werte unter 100%, um die Sättigung zu verringern, oder Werte über 100%, um "
+"die Farben zu intensivieren."
 
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:33
-msgid "Get Started"
-msgstr "Los geht's"
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:132
+msgid ""
+"Adjust your block's start and end height independently. Use values below 100 "
+"to decrease the height and values above 100 to increase it."
+msgstr ""
+"Stelle Start- und Endhöhe deines Blocks individuell ein. Verwende Werte "
+"unter 100, um die Höhe zu verringern, und Werte über 100, um sie zu erhöhen."
 
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:40
-msgid "Introduction"
-msgstr "Einführung"
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-fade-controls.js:42
+msgid ""
+"Adjust your block's start and end opacity. Set values below 100% to "
+"introduce transparency or 100% for full opacity."
+msgstr ""
+"Stelle Start- und Endwerte der Deckkraft deines Blocks ein. Setze Werte "
+"unter 100 % für Transparenz oder 100 % für volle Deckkraft."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-rotate-controls.js:173
+msgid ""
+"Adjust your block's start and end rotation on the X axis. Use negative "
+"values to tilt upwards and positive values to tilt downwards."
+msgstr ""
+"Stelle die Start- und Endrotation deines Blocks auf der X-Achse ein. "
+"Verwende negative Werte für eine Neigung nach oben und positive Werte für "
+"eine Neigung nach unten."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-rotate-controls.js:119
+msgid ""
+"Adjust your block's start and end rotation on the Y axis. Use negative "
+"values to tilt to the left and positive values to tilt to the right."
+msgstr ""
+"Stelle die Start- und Endrotation deines Blocks auf der Y-Achse ein. "
+"Verwende negative Werte um nach links und positive Werte um nach rechts zu "
+"kippen."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-rotate-controls.js:65
+msgid ""
+"Adjust your block's start and end rotation on the Z axis. Use negative "
+"values to rotate counterclockwise and positive values to rotate clockwise."
+msgstr ""
+"Stelle die Start- und Endrotation deines Blocks auf der Z-Achse ein. "
+"Verwende negative Werte um gegen den Uhrzeigersinn und positive Werte um im "
+"Uhrzeigersinn zu drehen."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:72
+msgid ""
+"Adjust your block's start and end size proportionally. Use values below 100 "
+"to reduce the size and values above 100 to enlarge it."
+msgstr ""
+"Passe Start- und Endgröße deines Blocks proportional an. Verwende Werte "
+"unter 100, um die Größe zu verringern und Werte über 100, um sie zu "
+"vergrößern."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:192
+msgid ""
+"Adjust your block's start and end width independently. Use values below 100 "
+"to decrease the width and values above 100 to increase it."
+msgstr ""
+"Stelle Start- und Endbreite deines Blocks individuell ein. Verwende Werte "
+"unter 100, um die Breite zu verringern, und Werte über 100, um sie zu "
+"erhöhen."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-move-controls.js:56
+msgid ""
+"Adjust your block's vertical start and end positions. Use negative values to "
+"shift upwards and positive values to shift downwards (Note: Percentage "
+"values are relative to the Timeline range)."
+msgstr ""
+"Stelle die vertikalen Start- und Endpositionen deines Blocks ein. Verwende "
+"negative Werte, um den Block nach oben zu verschieben, und positive Werte, "
+"um ihn nach unten zu verschieben (Hinweis: Prozentangaben beziehen sich auf "
+"den Timeline-Bereich)."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:385
+#: src/components/guide-modal.js:59 src/tzm-block-scroll-animations.js:191
+msgid "Animation Editor"
+msgstr "Animations-Editor"
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:86
+msgid "Animation Editor Toolbar"
+msgstr "Animations-Editor-Werkzeugleiste"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:126
+#| msgid "%s animation imported successfully!"
+msgid "Animation imported successfully!"
+msgstr "Animation erfolgreich importiert!"
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:101
+msgid ""
+"Apply <strong>Easing curves</strong> (<icon/>) other than linear to fine-"
+"tune how the animation progresses through it's timeline."
+msgstr ""
+"Wende nicht-lineare <strong>Easing-Kurven</strong> (<icon/>) an, um den "
+"Animationsverlauf entlang der Timeline feiner zu steuern."
 
 #: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:42
 msgid ""
@@ -63,35 +188,28 @@ msgstr ""
 "scrollbasierte Animationen hinzufügen. Animiere Eigenschaften wie Position, "
 "Drehung, Größe, Deckkraft und mehr."
 
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:45
-msgid ""
-"Enabling Scroll Animations in the inspector panel equips you with all the "
-"tools you need to animate your block effortlessly."
-msgstr ""
-"Das Aktivieren der Scroll-Animationen im Inspektor-Panel stellt dir alle "
-"Werkzeuge bereit, die du zum Animieren deines Blocks benötigst."
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:49
-msgid ""
-"For further details refer to the official documentation at:<br/><a>github."
-"com/jakobwiens7/tzm-block-scroll-animations</a>"
-msgstr ""
-"Weitere Details findest du in der offiziellen Dokumentation unter:<br/><a>"
-"github.com/jakobwiens7/tzm-block-scroll-animations</a>"
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:32
+msgid "Block Scroll Animations Guide"
+msgstr "Block Scroll Animations-Anleitung"
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:341
-#: src/components/guide-modal.js:59 src/tzm-block-scroll-animations.js:191
-msgid "Animation Editor"
-msgstr "Animations-Editor"
+#: src/components/animation-blur-controls.js:24
+#: src/components/animations-editor-modal.js:426
+msgid "Blur"
+msgstr "Unschärfe"
 
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:63
+#: build/tzm-block-scroll-animations.js:1
+#: src/tzm-block-scroll-animations.js:252
+msgid "Bottom"
+msgstr "Unten"
+
+#. Description of the plugin
+#: tzm-block-scroll-animations.php
 msgid ""
-"Open the Animation Editor using the <icon/> button in the inspector panel or "
-"the block toolbar."
+"Bring your blocks to life with scroll-driven animations — no coding required!"
 msgstr ""
-"Öffne den Animations-Editor mit dem <icon/>-Button im Inspektor-Panel oder "
-"der Block-Werkzeugleiste."
+"Erwecke deine Blöcke mit scrollbasierten Animationen zum Leben — ganz ohne "
+"Programmierkenntnisse!"
 
 #: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:69
 msgid ""
@@ -112,9 +230,24 @@ msgstr ""
 "du jedoch im Inspektor-Panel die <strong>Experimentelle Vorschau</strong> "
 "aktivieren, um Animationen direkt im Editor anzusehen."
 
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:86
-msgid "Animation Editor Toolbar"
-msgstr "Animations-Editor-Werkzeugleiste"
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:115
+msgid ""
+"By default, the Timeline range that controls a block's animation spans the "
+"entire page. The animation progresses from start to end as you scroll from "
+"top to bottom."
+msgstr ""
+"Der Timeline-Bereich, der die Animation eines Blocks steuert, erstreckt sich "
+"standardmäßig über die gesamte Seite. Die Animation läuft von Start bis Ende,"
+" während du von oben nach unten scrollst."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/tzm-block-scroll-animations.js:215
+msgid ""
+"Custom CSS selector for the scroll-timeline range element controlling the "
+"animation. Leave empty to use the entire document."
+msgstr ""
+"Benutzerdefinierter CSS-Selektor für das Scroll-Timeline-Element, das die "
+"Animation steuert. Leerlassen, um das gesamte Dokument zu verwenden."
 
 #: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:89
 msgid ""
@@ -126,96 +259,235 @@ msgstr ""
 "Richtungen oder Achsen</strong> umzuschalten. Schalte zum Beispiel auf Höhe "
 "um, um vertikal statt proportional zu skalieren."
 
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:95
-msgid ""
-"Adjust <strong>responsive animations</strong> for specific screen sizes by "
-"toggling the responsive device icons (Desktop, Laptop, Tablet, Phone) and "
-"setting unique values per device."
-msgstr ""
-"Passe <strong>responsive Animationen</strong> für bestimmte Bildschirmgrößen "
-"an, indem du die Geräte-Symbole (Desktop, Laptop, Tablet, Phone) aktivierst "
-"und pro Gerät eigene Werte festlegst."
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:101
-msgid ""
-"Apply <strong>Easing curves</strong> (<icon/>) other than linear to fine-"
-"tune how the animation progresses through it's timeline."
-msgstr ""
-"Wende nicht-lineare <strong>Easing-Kurven</strong> (<icon/>) an, um den "
-"Animationsverlauf entlang der Timeline feiner zu steuern."
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:112
-#: src/components/range-picker-modal.js:70
-msgid "Timeline Range"
-msgstr "Timeline-Bereich"
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:115
-msgid ""
-"By default, the Timeline range that controls a block's animation spans the "
-"entire page. The animation progresses from start to end as you scroll from "
-"top to bottom."
-msgstr ""
-"Der Timeline-Bereich, der die Animation eines Blocks steuert, erstreckt sich "
-"standardmäßig über die gesamte Seite. Die Animation läuft von Start bis Ende,"
-" während du von oben nach unten scrollst."
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:121
-msgid ""
-"Sometimes you might want to limit the Timeline range to a specific section "
-"of your page, so the animation begins when that section enters the viewport "
-"and ends when it leaves."
-msgstr ""
-"Manchmal ist es sinnvoll den Timeline-Bereich auf einen bestimmten Abschnitt "
-"deiner Seite beschränken, damit die Animation beginnt, wenn dieser Abschnitt "
-"den Viewport betritt, und endet, wenn er ihn verlässt."
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:127
-msgid ""
-"With the <icon/> button in the block toolbar you can set the Timeline range "
-"from a list of blocks. Note: The desired block must have a HTML anchor "
-"assigned, otherwise it will not be selectable. Alternatively, enter a "
-"<strong>custom CSS selector</strong> in the inspector panel."
-msgstr ""
-"Mit dem <icon/>-Button in der Block-Werkzeugleiste kannst du den Timeline-"
-"Bereich aus einer Liste von Blöcken auswählen. Hinweis: Der gewünschte Block "
-"muss einen HTML-Anker haben, sonst ist er nicht auswählbar. Alternativ "
-"kannst du auch einen <strong>benutzerdefinierten CSS-Selektor</strong> im "
-"Inspektor-Panel eingeben."
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:138
-msgid "Timeline Range Offsets"
-msgstr "Timeline-Bereichs-Versätze"
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:141
-msgid ""
-"You can refine the Timeline range using Range offsets applied to its top and "
-"bottom edges. Positive values move the boundary downward, negative values "
-"move it upward."
-msgstr ""
-"Du kannst den Timeline-Bereich anpassen, indem du Bereichs-Versätze an den "
-"oberen und unteren Grenzen setzt. Positive Werte verschieben sie nach unten, "
-"negative Werte nach oben."
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:146
-msgid "The following units are available:"
-msgstr "Die folgenden Einheiten sind verfügbar:"
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:151
-msgid "- <strong>px</strong> for absolute values in pixel"
-msgstr "- <strong>px</strong> für absolute Werte in Pixel"
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:157
-msgid "- <strong>%</strong> for values relative to the Timeline range height"
-msgstr "- <strong>%</strong> für Werte relativ zur Höhe des Timeline-Bereichs"
-
-#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:163
-msgid "- <strong>vh</strong> for values relative to the Viewport height"
-msgstr "- <strong>vh</strong> für Werte relativ zur Höhe des Viewports"
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:251
+msgid "Desktop screens"
+msgstr "Desktop-Bildschirme"
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/range-picker-modal.js:76
-msgid "Select a block with an HTML anchor assigned to it."
-msgstr "Wähle einen Block mit einem zugewiesenen HTML-Anker aus."
+#: src/tzm-block-scroll-animations.js:174
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/tzm-block-scroll-animations.js:216
+msgid "e.g. #my-range"
+msgstr "z.B. #mein-bereich"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/easing-select-control.js:53
+msgid "Easing"
+msgstr "Easing"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:309
+msgid "Easing curve"
+msgstr "Easing-Kurve"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/tzm-block-scroll-animations.js:173
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:45
+msgid ""
+"Enabling Scroll Animations in the inspector panel equips you with all the "
+"tools you need to animate your block effortlessly."
+msgstr ""
+"Das Aktivieren der Scroll-Animationen im Inspektor-Panel stellt dir alle "
+"Werkzeuge bereit, die du zum Animieren deines Blocks benötigst."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-blur-controls.js:62
+msgid "End Blur (px)"
+msgstr "End-Unschärfe (px)"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:161
+msgid "End Height"
+msgstr "End-Höhe"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-fade-controls.js:66
+msgid "End Opacity (%)"
+msgstr "End-Deckkraft (%)"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-saturate-controls.js:59
+msgid "End Saturation (%)"
+msgstr "End-Farbsättigung (%)"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:101
+msgid "End Size"
+msgstr "End-Größe"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:221
+msgid "End Width"
+msgstr "End-Breite"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-move-controls.js:146
+#: src/components/animation-rotate-controls.js:199
+msgid "End X"
+msgstr "End-X"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-move-controls.js:86
+#: src/components/animation-rotate-controls.js:145
+msgid "End Y"
+msgstr "End-Y"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-rotate-controls.js:91
+msgid "End Z"
+msgstr "End-Z"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/tzm-block-scroll-animations.js:199
+msgid "Experimental preview"
+msgstr "Experimentelle Vorschau"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:345
+#| msgid "Export %s animation"
+msgid "Export animation"
+msgstr "Animation exportieren"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-fade-controls.js:25
+#: src/components/animations-editor-modal.js:414
+msgid "Fade"
+msgstr "Deckkraft"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:130
+msgid "Failed to import animation: %s"
+msgstr "Import von %s-Animation fehlgeschlagen!"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/tzm-block-scroll-animations.js:237
+msgid ""
+"Fine-tune your scroll-timeline range by applying offsets to the top and "
+"bottom."
+msgstr ""
+"Feinjustiere deinen Scroll-Timeline-Bereich, indem du oben und unten "
+"Versätze hinzufügst."
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:49
+msgid ""
+"For further details refer to the official documentation at:<br/><a>github."
+"com/jakobwiens7/tzm-block-scroll-animations</a>"
+msgstr ""
+"Weitere Details findest du in der offiziellen Dokumentation unter:<br/><a>"
+"github.com/jakobwiens7/tzm-block-scroll-animations</a>"
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:33
+msgid "Get Started"
+msgstr "Los geht's"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:44
+msgid "Height"
+msgstr "Höhe"
+
+#. Author URI of the plugin
+#: tzm-block-scroll-animations.php
+msgid "https://www.tezmo.media"
+msgstr "https://www.tezmo.media"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:350
+#| msgid "Import %s animation"
+msgid "Import animation"
+msgstr "Animation importieren"
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:68
+msgid "In Back"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:83
+msgid "In Bounce"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:53
+msgid "In Circle"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:23
+msgid "In Cubic"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:101
+msgid "In Elastic"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:78
+msgid "In Out Back"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:95
+msgid "In Out Bounce"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:63
+msgid "In Out Circle"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:33
+msgid "In Out Cubic"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:113
+msgid "In Out Elastic"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:48
+msgid "In Out Quint"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:18
+msgid "In Out Sine"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:38
+msgid "In Quint"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:8
+msgid "In Sine"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:40
+msgid "Introduction"
+msgstr "Einführung"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:85
+msgid "JSON string copied to clipboard!"
+msgstr "JSON-String in die Zwischenablage kopiert!"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:252
+msgid "Laptop screens"
+msgstr "Laptop-Bildschirme"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:312
+#: src/components/easing-select-control.js:63
+msgid "Linear"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:337
+msgid "More"
+msgstr "Mehr"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:396
+msgid "Move"
+msgstr "Bewegung"
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/range-picker-modal.js:90
@@ -227,125 +499,77 @@ msgstr ""
 "`Erweitert`-Einstellungen eindeutige HTML-Anker hinzu um sie auswählbar zu "
 "machen."
 
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:8
-msgid "In Sine"
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:63
+msgid ""
+"Open the Animation Editor using the <icon/> button in the inspector panel or "
+"the block toolbar."
 msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:13
-msgid "Out Sine"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:18
-msgid "In Out Sine"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:23
-msgid "In Cubic"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:28
-msgid "Out Cubic"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:33
-msgid "In Out Cubic"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:38
-msgid "In Quint"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:43
-msgid "Out Quint"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:48
-msgid "In Out Quint"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:53
-msgid "In Circle"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:58
-msgid "Out Circle"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:63
-msgid "In Out Circle"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:68
-msgid "In Back"
-msgstr ""
+"Öffne den Animations-Editor mit dem <icon/>-Button im Inspektor-Panel oder "
+"der Block-Werkzeugleiste."
 
 #: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:73
 msgid "Out Back"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:78
-msgid "In Out Back"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:83
-msgid "In Bounce"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:89
 msgid "Out Bounce"
 msgstr ""
 
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:95
-msgid "In Out Bounce"
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:58
+msgid "Out Circle"
 msgstr ""
 
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:101
-msgid "In Elastic"
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:28
+msgid "Out Cubic"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:107
 msgid "Out Elastic"
 msgstr ""
 
-#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:113
-msgid "In Out Elastic"
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:43
+msgid "Out Quint"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1 src/shared/easings.js:13
+msgid "Out Sine"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-move-controls.js:34
-#: src/components/animation-rotate-controls.js:43
-msgid "Y axis"
-msgstr "Y-Achse"
+#: src/components/animations-editor-modal.js:93
+#| msgid "Paste JSON data for %s animation:"
+msgid "Paste JSON data for current animation:"
+msgstr "Füge JSON-Daten für die aktuelle Animation ein:"
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-move-controls.js:41
-#: src/components/animation-rotate-controls.js:50
-msgid "X axis"
-msgstr "X-Achse"
+#: src/components/animations-editor-modal.js:254
+msgid "Phone screens"
+msgstr "Handy-Bildschirme"
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-move-controls.js:56
+#: src/tzm-block-scroll-animations.js:154
+#: src/tzm-block-scroll-animations.js:226
+msgid "Pick Timeline Range"
+msgstr "Timeline-Bereich auswählen"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/tzm-block-scroll-animations.js:200
 msgid ""
-"Adjust your block's vertical start and end positions. Use negative values to "
-"shift upwards and positive values to shift downwards (Note: Percentage "
-"values are relative to the Timeline range)."
+"Preview might be disabled or inaccurate. Always review your results on the "
+"frontend."
 msgstr ""
-"Stelle die vertikalen Start- und Endpositionen deines Blocks ein. Verwende "
-"negative Werte, um den Block nach oben zu verschieben, und positive Werte, "
-"um ihn nach unten zu verschieben (Hinweis: Prozentangaben beziehen sich auf "
-"den Timeline-Bereich)."
+"Die Vorschau könnte deaktiviert oder ungenau sein. Überprüfe deine "
+"Ergebnisse immer auf dem Frontend."
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-move-controls.js:66
-#: src/components/animation-rotate-controls.js:130
-msgid "Start Y"
-msgstr "Start-Y"
+#: src/tzm-block-scroll-animations.js:274
+msgid "Quick Guide"
+msgstr "Kurzanleitung"
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-move-controls.js:86
-#: src/components/animation-rotate-controls.js:145
-msgid "End Y"
-msgstr "End-Y"
+#: src/tzm-block-scroll-animations.js:236
+msgid "Range offsets"
+msgstr "Bereichs-Versätze"
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animation-blur-controls.js:75
@@ -363,16 +587,96 @@ msgid "Reset"
 msgstr "Zurücksetzen"
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-move-controls.js:117
+#: src/components/animations-editor-modal.js:447
+msgid "Reset all"
+msgstr "Alle zurücksetzen"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:340
+#| msgid "Reset %s animation"
+msgid "Reset animation"
+msgstr "Animation zurücksetzen"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:402
+msgid "Rotate"
+msgstr "Drehung"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-saturate-controls.js:25
+#: src/components/animations-editor-modal.js:420
+msgid "Saturate"
+msgstr "Farbsättigung"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:444
+msgid "Save"
+msgstr "Speichern"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:408
+msgid "Scale"
+msgstr "Größe"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/tzm-block-scroll-animations.js:148
+msgid "Scroll Animation Editor"
+msgstr "Scroll-Animations-Editor"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/tzm-block-scroll-animations.js:165
+msgid "Scroll animations"
+msgstr "Scroll-Animationen"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/range-picker-modal.js:76
+msgid "Select a block with an HTML anchor assigned to it."
+msgstr "Wähle einen Block mit einem zugewiesenen HTML-Anker aus."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:34
+msgid "Size"
+msgstr "Größe"
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:121
 msgid ""
-"Adjust your block's horizontal start and end positions. Use negative values "
-"to move to the left and positive values to move to the right (Note: "
-"Percentage values are relative to the Timeline range)."
+"Sometimes you might want to limit the Timeline range to a specific section "
+"of your page, so the animation begins when that section enters the viewport "
+"and ends when it leaves."
 msgstr ""
-"Stelle die horizontalen Start- und Endpositionen deines Blocks ein. Verwende "
-"negative Werte, um ihn nach links zu bewegen, und positive Werte, um ihn "
-"nach rechts zu bewegen (Hinweis: Prozentwerte sind relativ zum Timeline-"
-"Bereich)."
+"Manchmal ist es sinnvoll den Timeline-Bereich auf einen bestimmten Abschnitt "
+"deiner Seite beschränken, damit die Animation beginnt, wenn dieser Abschnitt "
+"den Viewport betritt, und endet, wenn er ihn verlässt."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-blur-controls.js:51
+msgid "Start Blur (px)"
+msgstr "Start-Unschärfe (px)"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:143
+msgid "Start Height"
+msgstr "Start-Höhe"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-fade-controls.js:52
+msgid "Start Opacity (%)"
+msgstr "Start-Deckkraft (%)"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-saturate-controls.js:47
+msgid "Start Saturation (%)"
+msgstr "Start-Farbsättigung (%)"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:83
+msgid "Start Size"
+msgstr "Start-Größe"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-scale-controls.js:203
+msgid "Start Width"
+msgstr "Start-Breite"
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animation-move-controls.js:127
@@ -381,25 +685,10 @@ msgid "Start X"
 msgstr "Start-X"
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-move-controls.js:146
-#: src/components/animation-rotate-controls.js:199
-msgid "End X"
-msgstr "End-X"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-rotate-controls.js:36
-msgid "Z axis"
-msgstr "Z-Achse"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-rotate-controls.js:65
-msgid ""
-"Adjust your block's start and end rotation on the Z axis. Use negative "
-"values to rotate counterclockwise and positive values to rotate clockwise."
-msgstr ""
-"Stelle die Start- und Endrotation deines Blocks auf der Z-Achse ein. "
-"Verwende negative Werte um gegen den Uhrzeigersinn und positive Werte um im "
-"Uhrzeigersinn zu drehen."
+#: src/components/animation-move-controls.js:66
+#: src/components/animation-rotate-controls.js:130
+msgid "Start Y"
+msgstr "Start-Y"
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animation-rotate-controls.js:76
@@ -407,187 +696,18 @@ msgid "Start Z"
 msgstr "Start-Z"
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-rotate-controls.js:91
-msgid "End Z"
-msgstr "End-Z"
+#: src/components/animations-editor-modal.js:253
+msgid "Tablet screens"
+msgstr "Tablet-Bildschirme"
 
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-rotate-controls.js:119
-msgid ""
-"Adjust your block's start and end rotation on the Y axis. Use negative "
-"values to tilt to the left and positive values to tilt to the right."
-msgstr ""
-"Stelle die Start- und Endrotation deines Blocks auf der Y-Achse ein. "
-"Verwende negative Werte um nach links und positive Werte um nach rechts zu "
-"kippen."
+#. Author of the plugin
+#: tzm-block-scroll-animations.php
+msgid "TezmoMedia - Jakob Wiens"
+msgstr "TezmoMedia - Jakob Wiens"
 
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-rotate-controls.js:173
-msgid ""
-"Adjust your block's start and end rotation on the X axis. Use negative "
-"values to tilt upwards and positive values to tilt downwards."
-msgstr ""
-"Stelle die Start- und Endrotation deines Blocks auf der X-Achse ein. "
-"Verwende negative Werte für eine Neigung nach oben und positive Werte für "
-"eine Neigung nach unten."
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:34
-msgid "Size"
-msgstr "Größe"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:44
-msgid "Height"
-msgstr "Höhe"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:54
-msgid "Width"
-msgstr "Breite"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:72
-msgid ""
-"Adjust your block's start and end size proportionally. Use values below 100 "
-"to reduce the size and values above 100 to enlarge it."
-msgstr ""
-"Passe Start- und Endgröße deines Blocks proportional an. Verwende Werte "
-"unter 100, um die Größe zu verringern und Werte über 100, um sie zu "
-"vergrößern."
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:83
-msgid "Start Size"
-msgstr "Start-Größe"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:101
-msgid "End Size"
-msgstr "End-Größe"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:132
-msgid ""
-"Adjust your block's start and end height independently. Use values below 100 "
-"to decrease the height and values above 100 to increase it."
-msgstr ""
-"Stelle Start- und Endhöhe deines Blocks individuell ein. Verwende Werte "
-"unter 100, um die Höhe zu verringern, und Werte über 100, um sie zu erhöhen."
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:143
-msgid "Start Height"
-msgstr "Start-Höhe"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:161
-msgid "End Height"
-msgstr "End-Höhe"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:192
-msgid ""
-"Adjust your block's start and end width independently. Use values below 100 "
-"to decrease the width and values above 100 to increase it."
-msgstr ""
-"Stelle Start- und Endbreite deines Blocks individuell ein. Verwende Werte "
-"unter 100, um die Breite zu verringern, und Werte über 100, um sie zu "
-"erhöhen."
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:203
-msgid "Start Width"
-msgstr "Start-Breite"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-scale-controls.js:221
-msgid "End Width"
-msgstr "End-Breite"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-fade-controls.js:25
-#: src/components/animations-editor-modal.js:370
-msgid "Fade"
-msgstr "Deckkraft"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-fade-controls.js:42
-msgid ""
-"Adjust your block's start and end opacity. Set values below 100% to "
-"introduce transparency or 100% for full opacity."
-msgstr ""
-"Stelle Start- und Endwerte der Deckkraft deines Blocks ein. Setze Werte "
-"unter 100 % für Transparenz oder 100 % für volle Deckkraft."
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-fade-controls.js:52
-msgid "Start Opacity (%)"
-msgstr "Start-Deckkraft (%)"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-fade-controls.js:66
-msgid "End Opacity (%)"
-msgstr "End-Deckkraft (%)"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-saturate-controls.js:25
-#: src/components/animations-editor-modal.js:376
-msgid "Saturate"
-msgstr "Farbsättigung"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-saturate-controls.js:37
-msgid ""
-"Adjust your block's start and end color saturation. Set values below 100% to "
-"reduce saturation or values above 100% to intensify the colors."
-msgstr ""
-"Stelle Start- und Endwerte für die Farbsättigung deines Blocks ein. Setze "
-"Werte unter 100%, um die Sättigung zu verringern, oder Werte über 100%, um "
-"die Farben zu intensivieren."
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-saturate-controls.js:47
-msgid "Start Saturation (%)"
-msgstr "Start-Farbsättigung (%)"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-saturate-controls.js:59
-msgid "End Saturation (%)"
-msgstr "End-Farbsättigung (%)"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-blur-controls.js:24
-#: src/components/animations-editor-modal.js:382
-msgid "Blur"
-msgstr "Unschärfe"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-blur-controls.js:41
-msgid ""
-"Adjust your block's start and end blur. Increase the value above 0 to add a "
-"progressive blur effect. Note: Excessive use of blur can significantly "
-"impact performance, especially on slower devices."
-msgstr ""
-"Stelle Start- und Endwerte für den Unschärfeeffekt deines Blocks ein. Erhöhe "
-"den Wert über 0, um einen zunehmenden Unschärfeeffekt zu erzeugen. Hinweis: "
-"Intensiver Einsatz von Unschärfe kann die Leistung erheblich beeinträchtigen,"
-" insbesondere auf langsameren Geräten."
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-blur-controls.js:51
-msgid "Start Blur (px)"
-msgstr "Start-Unschärfe (px)"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animation-blur-controls.js:62
-msgid "End Blur (px)"
-msgstr "End-Unschärfe (px)"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/easing-select-control.js:53
-msgid "Easing"
-msgstr ""
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:146
+msgid "The following units are available:"
+msgstr "Die folgenden Einheiten sind verfügbar:"
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/easing-select-control.js:54
@@ -598,168 +718,78 @@ msgstr ""
 "Die Zeitkurve, die bestimmt, wie die Animation deines Blocks während des "
 "Scrollens beschleunigt und verlangsamt wird."
 
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:266
-#: src/components/easing-select-control.js:63
-msgid "Linear"
-msgstr ""
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:205
-msgid "Desktop screens"
-msgstr "Desktop-Bildschirme"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:206
-msgid "Laptop screens"
-msgstr "Laptop-Bildschirme"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:207
-msgid "Tablet screens"
-msgstr "Tablet-Bildschirme"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:208
-msgid "Phone screens"
-msgstr "Handy-Bildschirme"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:263
-msgid "Easing curve"
-msgstr "Easing-Kurve"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:291
-msgid "More"
-msgstr "Mehr"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:295
-msgid "Reset %s animation"
-msgstr "%s-Animation zurücksetzen"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:303
-msgid "Export %s animation"
-msgstr "%s-Animation exportieren"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:325
-msgid ""
-"You are currently editing the responsive animations for <strong>%s</strong>."
-msgstr ""
-"Du bearbeitest gerade die responsiven Animationen für <strong>%s</strong>."
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:352
-msgid "Move"
-msgstr "Bewegung"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:358
-msgid "Rotate"
-msgstr "Drehung"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:364
-msgid "Scale"
-msgstr "Größe"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:400
-msgid "Save"
-msgstr "Speichern"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:403
-msgid "Reset all"
-msgstr "Alle zurücksetzen"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:148
-msgid "Scroll Animation Editor"
-msgstr "Scroll-Animations-Editor"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:154
-#: src/tzm-block-scroll-animations.js:226
-msgid "Pick Timeline Range"
-msgstr "Timeline-Bereich auswählen"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:165
-msgid "Scroll animations"
-msgstr "Scroll-Animationen"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:173
-msgid "Enabled"
-msgstr "Aktiviert"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:174
-msgid "Disabled"
-msgstr "Deaktiviert"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:199
-msgid "Experimental preview"
-msgstr "Experimentelle Vorschau"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:200
-msgid ""
-"Preview might be disabled or inaccurate. Always review your results on the "
-"frontend."
-msgstr ""
-"Die Vorschau könnte deaktiviert oder ungenau sein. Überprüfe deine "
-"Ergebnisse immer auf dem Frontend."
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:112
+#: src/components/range-picker-modal.js:70
+msgid "Timeline Range"
+msgstr "Timeline-Bereich"
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/tzm-block-scroll-animations.js:214
 msgid "Timeline range"
 msgstr "Timeline-Bereich"
 
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:215
-msgid ""
-"Custom CSS selector for the scroll-timeline range element controlling the "
-"animation. Leave empty to use the entire document."
-msgstr ""
-"Benutzerdefinierter CSS-Selektor für das Scroll-Timeline-Element, das die "
-"Animation steuert. Leerlassen, um das gesamte Dokument zu verwenden."
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:216
-msgid "e.g. #my-range"
-msgstr "z.B. #mein-bereich"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:236
-msgid "Range offsets"
-msgstr "Bereichs-Versätze"
-
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:237
-msgid ""
-"Fine-tune your scroll-timeline range by applying offsets to the top and "
-"bottom."
-msgstr ""
-"Feinjustiere deinen Scroll-Timeline-Bereich, indem du oben und unten "
-"Versätze hinzufügst."
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:138
+msgid "Timeline Range Offsets"
+msgstr "Timeline-Bereichs-Versätze"
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/tzm-block-scroll-animations.js:241
 msgid "Top"
 msgstr "Oben"
 
-#: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:252
-msgid "Bottom"
-msgstr "Unten"
+#. Plugin Name of the plugin
+#: tzm-block-scroll-animations.php
+msgid "TZM Block Scroll Animations"
+msgstr "TZM Block Scroll-Animationen"
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/tzm-block-scroll-animations.js:274
-msgid "Quick Guide"
-msgstr "Kurzanleitung"
+#: src/components/animation-scale-controls.js:54
+msgid "Width"
+msgstr "Breite"
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:127
+msgid ""
+"With the <icon/> button in the block toolbar you can set the Timeline range "
+"from a list of blocks. Note: The desired block must have a HTML anchor "
+"assigned, otherwise it will not be selectable. Alternatively, enter a "
+"<strong>custom CSS selector</strong> in the inspector panel."
+msgstr ""
+"Mit dem <icon/>-Button in der Block-Werkzeugleiste kannst du den Timeline-"
+"Bereich aus einer Liste von Blöcken auswählen. Hinweis: Der gewünschte Block "
+"muss einen HTML-Anker haben, sonst ist er nicht auswählbar. Alternativ "
+"kannst du auch einen <strong>benutzerdefinierten CSS-Selektor</strong> im "
+"Inspektor-Panel eingeben."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-move-controls.js:41
+#: src/components/animation-rotate-controls.js:50
+msgid "X axis"
+msgstr "X-Achse"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-move-controls.js:34
+#: src/components/animation-rotate-controls.js:43
+msgid "Y axis"
+msgstr "Y-Achse"
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:369
+msgid ""
+"You are currently editing the responsive animations for <strong>%s</strong>."
+msgstr ""
+"Du bearbeitest gerade die responsiven Animationen für <strong>%s</strong>."
+
+#: build/tzm-block-scroll-animations.js:1 src/components/guide-modal.js:141
+msgid ""
+"You can refine the Timeline range using Range offsets applied to its top and "
+"bottom edges. Positive values move the boundary downward, negative values "
+"move it upward."
+msgstr ""
+"Du kannst den Timeline-Bereich anpassen, indem du Bereichs-Versätze an den "
+"oberen und unteren Grenzen setzt. Positive Werte verschieben sie nach unten, "
+"negative Werte nach oben."
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animation-rotate-controls.js:36
+msgid "Z axis"
+msgstr "Z-Achse"

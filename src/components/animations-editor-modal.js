@@ -82,9 +82,55 @@ const AnimationsEditorModal = ( { props, updateAttribute, close } ) => {
 			await navigator.clipboard.writeText(
 				JSON.stringify( animation, null, 2 )
 			);
-			alert( 'JSON string copied to clipboard!' );
+			alert( __('JSON string copied to clipboard!', 'tzm-block-scroll-animations') );
 		} catch ( err ) {
 			console.error( 'Failed to copy: ', err );
+		}
+	};
+
+	// Import Animation settings
+	const importJson = ( type ) => {	
+		const jsonInput = prompt( __( 'Paste JSON data for current animation:', 'tzm-block-scroll-animations' ) );
+
+		if ( ! jsonInput ) return; // User cancelled or empty input
+		
+		try {
+			const importedData = JSON.parse( jsonInput );
+			
+			// Validate the imported data structure
+			if ( typeof importedData !== 'object' || importedData === null ) {
+				throw new Error( 'Invalid animation data: must be an object' );
+			}
+
+			// Validate easing if present
+			if ( importedData.easing && ! easingData[ importedData.easing ] ) {
+				throw new Error( `Invalid easing value: ${ importedData.easing }` );
+			}
+
+			// Validate responsive structure if present
+			if ( importedData.responsive ) {
+				const validDevices = [ 'desktop', 'laptop', 'tablet', 'phone' ];
+				Object.keys( importedData.responsive ).forEach( ( device ) => {
+					if ( ! validDevices.includes( device ) ) {
+						throw new Error( `Invalid responsive device: ${ device }` );
+					}
+				} );
+			}
+
+			// Clean and update animations
+			setAnimations( cleanEmptyObject({
+				...animations,
+				[ type ]: importedData
+			}) );
+
+			alert( __( 'Animation imported successfully!', 'tzm-block-scroll-animations' ) );
+
+		} catch ( err ) {
+			alert( sprintf(
+				__( 'Failed to import animation: %s', 'tzm-block-scroll-animations' ),
+				err.message
+			) );
+			console.error( 'Import error: ', err );
 		}
 	};
 
@@ -291,20 +337,18 @@ const AnimationsEditorModal = ( { props, updateAttribute, close } ) => {
 							label={ __('More', 'tzm-block-scroll-animations') }
 							controls={ [
 								{
-									title: sprintf(
-										__('Reset %s animation', 'tzm-block-scroll-animations'),
-										[ ...type ][ 0 ].toUpperCase() + [ ...type ].slice( 1 ).join( '' )
-									),
+									title: __('Reset animation', 'tzm-block-scroll-animations'),
 									isDisabled: ! animation,
 									onClick: () => setAnimations( { ...animations, [ type ]: undefined } )
 								},
 								{
-									title: sprintf(
-										__('Export %s animation', 'tzm-block-scroll-animations'),
-										[ ...type ][ 0 ].toUpperCase() + [ ...type ].slice( 1 ).join( '' )
-									),
+									title: __('Export animation', 'tzm-block-scroll-animations'),
 									isDisabled: ! animation,
 									onClick: () => exportJson( animation ),
+								},
+								{
+									title: __('Import animation', 'tzm-block-scroll-animations'),
+									onClick: () => importJson( type ),
 								},
 							] }
 						/>

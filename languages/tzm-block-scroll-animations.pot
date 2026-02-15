@@ -1,15 +1,15 @@
-# Copyright (C) 2025 TezmoMedia - Jakob Wiens
+# Copyright (C) 2026 TezmoMedia - Jakob Wiens
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: TZM Block Scroll Animations 1.0.0\n"
+"Project-Id-Version: TZM Block Scroll Animations 1.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tzm-block-scroll-animations\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-12-03T10:49:09+01:00\n"
+"POT-Creation-Date: 2026-02-14T19:00:34+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: tzm-block-scroll-animations\n"
@@ -65,7 +65,7 @@ msgid "For further details refer to the official documentation at:<br/><a>github
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:341
+#: src/components/animations-editor-modal.js:385
 #: src/components/guide-modal.js:59
 #: src/tzm-block-scroll-animations.js:191
 msgid "Animation Editor"
@@ -425,7 +425,7 @@ msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animation-fade-controls.js:25
-#: src/components/animations-editor-modal.js:370
+#: src/components/animations-editor-modal.js:414
 msgid "Fade"
 msgstr ""
 
@@ -446,7 +446,7 @@ msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animation-saturate-controls.js:25
-#: src/components/animations-editor-modal.js:376
+#: src/components/animations-editor-modal.js:420
 msgid "Saturate"
 msgstr ""
 
@@ -467,7 +467,7 @@ msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
 #: src/components/animation-blur-controls.js:24
-#: src/components/animations-editor-modal.js:382
+#: src/components/animations-editor-modal.js:426
 msgid "Blur"
 msgstr ""
 
@@ -497,78 +497,103 @@ msgid "The timing curve that governs how your block's animation accelerates and 
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:266
+#: src/components/animations-editor-modal.js:312
 #: src/components/easing-select-control.js:63
 msgid "Linear"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:205
+#: src/components/animations-editor-modal.js:251
 msgid "Desktop screens"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:206
+#: src/components/animations-editor-modal.js:252
 msgid "Laptop screens"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:207
+#: src/components/animations-editor-modal.js:253
 msgid "Tablet screens"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:208
+#: src/components/animations-editor-modal.js:254
 msgid "Phone screens"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:263
+#: src/components/animations-editor-modal.js:309
 msgid "Easing curve"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:291
+#: src/components/animations-editor-modal.js:337
 msgid "More"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:295
-msgid "Reset %s animation"
+#: src/components/animations-editor-modal.js:340
+msgid "Reset animation"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:303
-msgid "Export %s animation"
+#: src/components/animations-editor-modal.js:345
+msgid "Export animation"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:325
+#: src/components/animations-editor-modal.js:85
+msgid "JSON string copied to clipboard!"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:350
+msgid "Import animation"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:93
+msgid "Paste JSON data for current animation:"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:126
+msgid "Animation imported successfully!"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:130
+msgid "Failed to import animation: %s"
+msgstr ""
+
+#: build/tzm-block-scroll-animations.js:1
+#: src/components/animations-editor-modal.js:369
 msgid "You are currently editing the responsive animations for <strong>%s</strong>."
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:352
+#: src/components/animations-editor-modal.js:396
 msgid "Move"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:358
+#: src/components/animations-editor-modal.js:402
 msgid "Rotate"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:364
+#: src/components/animations-editor-modal.js:408
 msgid "Scale"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:400
+#: src/components/animations-editor-modal.js:444
 msgid "Save"
 msgstr ""
 
 #: build/tzm-block-scroll-animations.js:1
-#: src/components/animations-editor-modal.js:403
+#: src/components/animations-editor-modal.js:447
 msgid "Reset all"
 msgstr ""
 
