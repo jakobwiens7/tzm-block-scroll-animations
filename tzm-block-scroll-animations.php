@@ -3,7 +3,7 @@
 /**
  * Plugin Name:		TZM Block Scroll Animations
  * Description:		Bring your blocks to life with scroll-driven animations — no coding required!
- * Version:			1.0.1
+ * Version:			1.0.2
  * Author:			TezmoMedia - Jakob Wiens
  * Author URI:		https://www.tezmo.media
  * License:			GPL-2.0-or-later
@@ -127,15 +127,11 @@ if (!class_exists('TZM_Block_Scroll_Animations')) {
          */
         public function render_block($block_content, $block)
         {
-            if (
-                !isset($block['attrs']['scrollAnimations']) ||
-                !$block['attrs']['scrollAnimations'] ||
-                !$block['attrs']['scrollAnimations']['enabled']
-            ) {
+            $scroll_animations = $block['attrs']['scrollAnimations'] ?? [];
+
+            if (empty($scroll_animations['enabled'])) {
                 return $block_content;
             }
-
-            $scroll_animations = $block['attrs']['scrollAnimations'];
 
             $html = new WP_HTML_Tag_Processor($block_content);
             if ($html->next_tag()) {

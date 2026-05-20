@@ -2,7 +2,7 @@
 Contributors:       jakobwiens
 Tags:               block controls, scroll, motion, effects, animation
 Tested up to:       7.0
-Stable tag:         1.0.1
+Stable tag:         1.0.2
 License:			GPLv2 or later
 License URI: 		https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,11 @@ For a complete list of available options, refer to the [ScrollageJS documentatio
 
 
 == Changelog ==
+
+= 1.0.2 =
+* Minor bugfixes
+* Allow importing single animations via JSON
+* Allow custom ScrollageJS initialization settings
 
 = 1.0.0 =
 * Initial Release :)
