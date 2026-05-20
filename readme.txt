@@ -80,6 +80,7 @@ For a complete list of available options, refer to the [ScrollageJS documentatio
 == Changelog ==
 
 = 1.0.2 =
+* Support WordPress 7.0
 * Minor bugfixes
 * Allow importing single animations via JSON
 * Allow custom ScrollageJS initialization settings
